@@ -15,6 +15,7 @@ unsetopt correct_all
 alias gs='git status'
 alias gd='git diff'
 alias tlog='tail -f log/development.log'
+alias mate='subl'
 
 # add plugin's bin directory to path
 export PATH="$(dirname $0)/bin:$PATH"
